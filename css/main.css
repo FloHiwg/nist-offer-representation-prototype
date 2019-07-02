@@ -1,6 +1,13 @@
 body {
-
+  background-image: url("../img/hero_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
+
 
 h1 {
   height: 46px;
@@ -11,10 +18,11 @@ h1 {
   line-height: 41px;
 }
 
-.content_wrapper {
+.content-wrapper {
   padding: 45px 60px;
   box-shadow: 0 2px 32px 0 rgba(0,0,0,0.2);
   margin-top: 60px;
+  background-color: white;
 }
 
 .red-dot {
@@ -34,5 +42,37 @@ h1 {
 }
 
 .consultant-card__name {
+  font-weight: bold;
+}
+
+section {
+  margin-top: 60px;
+}
+
+.section__header {
+
+}
+
+.video__iframe {
+  margin: 0 auto;
+}
+
+.financing__row {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.financing__description {
+  color: #2E384D;
+  font-family: "Avenir Next";
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.financing__number {
+  color: #2E384D;
+  font-family: "Avenir Next";
+  font-size: 20px;
+  line-height: 20px;
   font-weight: bold;
 }
