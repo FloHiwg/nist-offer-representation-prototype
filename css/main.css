@@ -16,6 +16,19 @@ h1 {
   line-height: 41px;
 }
 
+h2 {
+  height: 46px;
+  font-family: "Avenir Next";
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+h2::first-letter{
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .content-wrapper {
   padding: 45px 60px;
   box-shadow: 0 2px 32px 0 rgba(0,0,0,0.2);
@@ -44,7 +57,7 @@ h1 {
 }
 
 section {
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .section__header {
@@ -78,4 +91,10 @@ section {
 .embed-responsive {
   width: 80%;
   margin: 0 auto;
+}
+
+.page-footer {
+  color: #fff;
+  margin-top: 160px;
+  background: #2E384D;
 }
