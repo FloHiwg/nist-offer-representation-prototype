@@ -32,23 +32,20 @@ h1 {
 }
 
 
-.consultant-card__info {
+.offer-date__info {
   	color: #212223;
     font-family: "Avenir Next";
     font-size: 16px;
     line-height: 20px;
+    text-align: right;
 }
 
-.consultant-card__name {
+.offer-date__title {
   font-weight: bold;
 }
 
 section {
   margin-top: 60px;
-}
-
-.section__header {
-
 }
 
 .video__iframe {
@@ -78,4 +75,45 @@ section {
 .embed-responsive {
   width: 80%;
   margin: 0 auto;
+}
+
+.consultant-card {
+  background-color: white;
+  padding: 25px 30px;
+  box-shadow: 0 2px 32px 0 rgba(0,0,0,0.2);
+  margin-top: 60px;
+  background-color: white;
+}
+
+.consultant-card__name {
+  color: #212223;	
+  font-family: "Avenir Next";	
+  font-size: 18px;	
+  font-weight: bold;
+}
+.consultant-card__title {
+  opacity: 0.8;	
+  color: #212223;	
+  font-family: "Avenir Next";	
+  font-size: 18px;
+}
+
+.consultant-card__img {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+.consultant-card__info {
+  float: left;
+  padding: 10px 12px 10px 12px;
+}
+
+.download__button {
+  background-color: #4869F1 !important;
+  font-size: 18px;
+  text-transform: none;
+  font-weight: normal;
+  float: right;
 }
