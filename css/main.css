@@ -24,11 +24,6 @@ h2 {
   line-height: 41px;
 }
 
-h2::first-letter{
-  font-size: 32px;
-  font-weight: 700;
-}
-
 .content-wrapper {
   padding: 45px 60px;
   box-shadow: 0 2px 32px 0 rgba(0,0,0,0.2);
@@ -97,4 +92,16 @@ section {
   color: #fff;
   margin-top: 160px;
   background: #2E384D;
+}
+
+a {
+  color: #4869F1;
+}
+
+footer a {
+  color: #fafafa;
+}
+
+footer a:hover {
+  color: #fff;
 }
