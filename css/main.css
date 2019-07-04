@@ -1,6 +1,6 @@
 body {
-  background: url("../img/hero_img.jpg") center no-repeat fixed;
-  background-size: 100% auto;
+  background: url("../img/hero_img.jpg") top no-repeat fixed;
+  background-size: 100% 100%;
   font-family: "Avenir Next";
   font-size: 17px;
   width: 100%;
