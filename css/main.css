@@ -152,6 +152,9 @@ footer a:hover {
   box-shadow: 0 2px 32px 0 rgba(0,0,0,0.2);
   margin-top: 60px;
   background-color: white;
+  position: fixed;
+  right: 0px;
+  top: 0px;
 }
 
 .consultant-card__name {
